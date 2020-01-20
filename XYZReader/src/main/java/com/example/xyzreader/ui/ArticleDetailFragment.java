@@ -250,7 +250,7 @@ public class ArticleDetailFragment extends Fragment implements
                                 mMutedColor = p.getDarkMutedColor(0xFF333333);
                                 mPhotoView.setImageBitmap(imageContainer.getBitmap());
                                 mPhotoHeight = mPhotoView.getLayoutParams().height;
-                                maxWidthLL.layout(0, mPhotoHeight,  0, 0);
+                                //maxWidthLL.layout(0, mPhotoHeight,  0, 0);
                                 Log.i("My Magin", Integer.toString(mPhotoHeight));
                                 mRootView.findViewById(R.id.meta_bar)
                                         .setBackgroundColor(mMutedColor);
